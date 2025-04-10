@@ -4,7 +4,7 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.0.xsd">
 
-    <changeSet id="renamed-column-published_year-to_publication_year" author="vitalii yamchytskyii">
+    <changeSet id="renamed-column-published_year-to_publication_year" author="Tatiana Novikova">
         <renameColumn tableName="books" oldColumnName="published_year" newColumnName="publication_year"/>
         <rollback>
             <renameColumn tableName="books" oldColumnName="publication_year" newColumnName="published_year"/>

@@ -3,7 +3,7 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.0.xsd">
-        <changeSet id="add-genre-column-to-books" author="anischenko alexander">
+        <changeSet id="add-genre-column-to-books" author="Tatiana Novikova">
             <addColumn tableName="books">
                 <column name="genre" type="VARCHAR(50)"/>
             </addColumn>

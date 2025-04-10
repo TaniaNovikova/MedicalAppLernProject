@@ -4,7 +4,7 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.0.xsd">
 
-    <changeSet id="delete-column-country-from-table-publishers_info" author="vitalii yamchytskyi">
+    <changeSet id="delete-column-country-from-table-publishers_info" author="Tatiana Novikova">
         <dropColumn tableName="publishers_info" columnName="country"/>
         <rollback>
             <addColumn tableName="publishers_info">

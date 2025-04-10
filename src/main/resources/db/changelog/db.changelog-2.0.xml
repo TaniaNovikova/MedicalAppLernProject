@@ -3,7 +3,7 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.0.xsd">
-    <changeSet id="create-books-table" author="vitalii yamchytskyi">
+    <changeSet id="create-books-table" author="Tatiana Novikova">
         <createTable tableName="books">
             <column name="id" type="BIGINT" autoIncrement="true" />
             <column name="title" type="VARCHAR(50)"/>

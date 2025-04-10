@@ -3,7 +3,7 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.0.xsd">
-    <changeSet id="create-books-table" author="elena suslova">
+    <changeSet id="create-books-table" author="Tatiana Novikova">
         <createTable tableName="publishers">
             <column name="id" type="BIGINT" autoIncrement="true">
                 <constraints primaryKey="true"/>
