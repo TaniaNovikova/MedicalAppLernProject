@@ -44,7 +44,11 @@ public class SecurityConfig {
                         .anyRequest().authenticated()
 
                 ).httpBasic(Customizer.withDefaults());
-        http.headers(headers -> headers.frameOptions().disable());
+        http.headers(headers ->
+                headers.frameOptions(frameOptions ->
+                        frameOptions.disable()
+                )
+        );
 
         return http.build();
     }

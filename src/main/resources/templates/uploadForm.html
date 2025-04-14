@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Загрузка файла в базу данных</title>
+</head>
+<body>
+<h1>Загрузить файл в базу данных</h1>
+<div>
+    <p th:text="${message}"></p>
+</div>
+
+<form th:action="@{/file/upload}" method="post" enctype="multipart/form-data">
+    <input type="file" name="file"/>
+    <button type="submit">Загрузить</button>
+</form>
+</body>
+</html>
